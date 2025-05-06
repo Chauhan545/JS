@@ -36,3 +36,44 @@ console.log(typeof str);
 
 console.log(str);
 
+
+//-------------------Operations-----------------
+console.log("Operations lecture");
+
+
+let value=3
+let nVal=-value
+//console.log(nVal);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+// let s1="hello"
+// let s2=" shivani"
+// console.log(s1+s2);
+
+// console.log(1+"2");
+// console.log("1"+2);
+// console.log("1"+"2");
+// console.log("1"+"2"+2);
+// console.log("1"+2+2);
+// console.log(2+2+"1");
+
+// console.log(3+4*5%3);//confusing code 
+// console.log((3+4)*5%3);//correct way
+
+console.log(true);//true
+console.log(+true);//1
+//console.log(true+);//error
+
+
+let num1,num2,num3
+num1=num2=num3=2+2//not good way
+
+let counter=100
+counter++
+console.log(counter);
