@@ -34,3 +34,34 @@ const myFun=function(){
 }
 
 console.log(typeof bigNumber); 
+
+//---------------------Memory----------------
+
+//---------------stack and heap memory---------------
+
+//primitive type- stack memory-var ki copy milegi
+//non primitive- heap memory- ref milega
+
+//stack example
+let myName="Shivani"
+
+let otherName=myName
+otherName="Chauhan"
+
+console.log(myName);
+console.log(otherName);
+
+
+//heap memory example
+let user1={
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let user2=user1
+user2.email="shivani@gmail.com"
+console.log(user1.email);
+console.log(user2.email);
+
+
+
