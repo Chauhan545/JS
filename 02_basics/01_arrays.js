@@ -18,14 +18,14 @@ arr.push(5)
 console.log(arr);
 
 //pop
-arr2.pop()
+arr2.pop()//removing 6
 console.log(arr2);
 
 //unshift-------------
 //inserting at the begining//by shifting array by 1 position
 console.log("printing arr2");
 console.log(arr2);
-arr2.unshift(9)
+arr2.unshift(9)//adding 9 at the begining of arr2
 console.log(arr2);
 arr2.shift()//removing element from the begining
 console.log(arr2);
@@ -36,6 +36,8 @@ console.log(arr2.indexOf(9));
 console.log(arr2);
 
 //join convert array to string
+console.log("join converts array to string ");
+
 const newarr=arr2.join();
 console.log(newarr);
 console.log(typeof newarr);
@@ -54,7 +56,7 @@ console.log("A ",myArr);
 
 
 const a1=myArr.slice(1,3)
-console.log(a1);
+console.log(`slice array is ${a1}`);
 console.log("B ",myArr);
 
 //splice

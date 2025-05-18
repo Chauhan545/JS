@@ -3,10 +3,10 @@
 
 const marvel=["thor",'stark','ironman']
 const dc=["superman","flash","batman"]
-// marvel.push(dc);//array inside array
-// console.log(marvel);
-// //array kisi ko bhi as a data le leta h//array ko bhi
-// console.log(marvel[3][1]);
+marvel.push(dc);//array inside array
+console.log(marvel);
+//array kisi ko bhi as a data le leta h//array ko bhi
+console.log(marvel[3][1]);
 //but this is not a good method
 
 //---------second method
@@ -43,4 +43,3 @@ let score2=200
 let score3=300
 
 console.log(Array.of(score1,score2,score3));
-
